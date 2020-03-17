@@ -47,7 +47,7 @@ function openDialog(){
     });
 
     comment_cont.appendChild(mainCommentBtn);
-    container.appendChild(comment_cont);
+    container.insertBefore(comment_cont,container.children[0])
 
 }
 
