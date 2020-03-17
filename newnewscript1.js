@@ -138,7 +138,7 @@ function createNewComment(comment,parent,isReply){
 
     if(comment.replies && comment.replies.length > 0){
         comment.replies.map(reply => {
-            createNewComment(reply,newCommentBtn,true);
+            createNewComment(reply,newCommentItem,true);
         })
     }
 }
